@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Streamlit
+.streamlit/
+static/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Agent/Claude Specific
+.agent/
+.agents/
+.claude/
+skills-lock.json
+history_summary.md
+
+# OS specific
+__MACOSX/
