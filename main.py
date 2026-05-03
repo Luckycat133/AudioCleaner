@@ -9,6 +9,7 @@ import torch
 import tempfile
 import os
 import subprocess
+import shutil
 import time
 
 # --- Professional UI Setup (Clean White) ---
@@ -90,6 +91,16 @@ with st.expander("⚙️ 降噪参数调节 (点击展开)", expanded=False):
             help="[高级功能] 输出的不再是音频，而是分离出来的底层频率声学遮罩掩码信号，仅供专业音频工程师二次混音使用。"
         )
 
+# --- Helper: assert ffmpeg/ffprobe exist ---
+def _check_ffmpeg():
+    for cmd in ['ffmpeg', 'ffprobe']:
+        if not shutil.which(cmd):
+            raise RuntimeError(
+                f"ffmpeg '{cmd}' not found in PATH. "
+                "Please install ffmpeg (e.g. brew install ffmpeg) and ensure it is on your PATH."
+            )
+
+
 # --- Logic Layer ---
 
 uploaded_file = st.file_uploader("", type=["mp3", "m4a", "wav", "flac", "ogg", "mov"], label_visibility="collapsed")
@@ -103,6 +114,8 @@ if uploaded_file:
 
     # 1. Processing Pipeline
     with st.status("正在准备素材...", expanded=False) as status:
+        _check_ffmpeg()
+
         # Save to disk directly from buffer
         with open(input_path, "wb") as f:
             f.write(uploaded_file.getbuffer())
