@@ -1,0 +1,6 @@
+interface:
+  display_name: "Connecting Streamlit To Snowflake"
+  short_description: "Connecting Streamlit apps to Snowflake. Use when setting up database connections, managing secrets, ..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

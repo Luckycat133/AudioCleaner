@@ -1,0 +1,6 @@
+interface:
+  display_name: "Building Streamlit Custom Components V2"
+  short_description: "Builds bidirectional Streamlit Custom Components v2 (CCv2) using `st.components.v2.component`. Use w..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

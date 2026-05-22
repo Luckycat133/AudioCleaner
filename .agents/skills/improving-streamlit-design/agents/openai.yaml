@@ -1,0 +1,6 @@
+interface:
+  display_name: "Improving Streamlit Design"
+  short_description: "Improving visual design in Streamlit apps. Use when polishing apps with icons, badges, spacing, or t..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

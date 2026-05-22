@@ -1,0 +1,6 @@
+interface:
+  display_name: "Developing With Streamlit"
+  short_description: "Build production-grade Streamlit apps. Used when creating, editing, debugging, or deploying Streamli..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

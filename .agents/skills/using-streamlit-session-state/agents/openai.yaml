@@ -1,0 +1,6 @@
+interface:
+  display_name: "Using Streamlit Session State"
+  short_description: "Using st.session_state to manage state across Streamlit reruns. Use when persisting data, handling w..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

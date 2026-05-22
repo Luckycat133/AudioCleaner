@@ -1,0 +1,6 @@
+interface:
+  display_name: "Using Streamlit Cli"
+  short_description: "Documents Streamlit CLI commands for running apps, managing configuration, and diagnostics. Use when..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true
