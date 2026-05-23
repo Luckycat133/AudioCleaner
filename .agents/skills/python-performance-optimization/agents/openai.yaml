@@ -1,0 +1,6 @@
+interface:
+  display_name: "Python Performance Optimization"
+  short_description: "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. U..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

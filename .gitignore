@@ -16,9 +16,6 @@ static/
 
 # Agent/Claude Specific
 .agent/
-.agents/
-.claude/
-skills-lock.json
 history_summary.md
 
 # OS specific

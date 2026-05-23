@@ -1,0 +1,6 @@
+interface:
+  display_name: "Using Streamlit Layouts"
+  short_description: "Structuring Streamlit app layouts. Use when placing content in sidebars, columns, containers, or dia..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Building Streamlit Dashboards"
+  short_description: "Building dashboards in Streamlit. Use when creating KPI displays, metric cards, or data-heavy layout..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

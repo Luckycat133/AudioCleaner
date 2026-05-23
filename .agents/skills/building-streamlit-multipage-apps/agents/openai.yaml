@@ -1,0 +1,6 @@
+interface:
+  display_name: "Building Streamlit Multipage Apps"
+  short_description: "Building multi-page Streamlit apps. Use when creating apps with multiple pages, setting up navigatio..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

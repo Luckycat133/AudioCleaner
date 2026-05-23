@@ -1,0 +1,6 @@
+interface:
+  display_name: "Organizing Streamlit Code"
+  short_description: "Organizing Streamlit code for maintainability. Use when structuring apps with separate modules and u..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true
