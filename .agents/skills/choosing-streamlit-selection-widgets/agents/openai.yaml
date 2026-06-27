@@ -1,0 +1,6 @@
+interface:
+  display_name: "Choosing Streamlit Selection Widgets"
+  short_description: "Choosing the right Streamlit selection widget. Use when deciding between radio buttons, selectbox, s..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

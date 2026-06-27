@@ -1,0 +1,6 @@
+interface:
+  display_name: "Using Streamlit Markdown"
+  short_description: "Covers all Markdown features in Streamlit including GitHub-flavored syntax plus Streamlit extensions..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

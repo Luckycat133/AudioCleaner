@@ -1,0 +1,6 @@
+interface:
+  display_name: "Setting Up Streamlit Environment"
+  short_description: "Setting up Python environments for Streamlit apps. Use when creating a new project or managing depen..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

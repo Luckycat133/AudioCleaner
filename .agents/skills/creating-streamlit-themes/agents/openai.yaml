@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creating Streamlit Themes"
+  short_description: "Creating and customizing Streamlit themes. Use when changing app colors, fonts, or appearance, or al..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true

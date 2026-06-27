@@ -1,0 +1,6 @@
+interface:
+  display_name: "Optimizing Streamlit Performance"
+  short_description: "Optimizing Streamlit app performance. Use when apps are slow, rerunning too often, or loading heavy ..."
+  brand_color: "#3B82F6"
+policy:
+  allow_implicit_invocation: true
